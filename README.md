@@ -1,4 +1,6 @@
-# just-the-docs-template
+# Today I learned
+
+If you don't know what "Today I Learned" is, then [lmgtfy](https://www.google.com/search?q=today+i+learned)
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
