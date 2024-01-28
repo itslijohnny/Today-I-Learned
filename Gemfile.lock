@@ -128,6 +128,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  faraday (~> 2.7, >= 2.7.11)
   faraday-retry
   jekyll (~> 4.3.3)
   jekyll-commonmark-ghpages
