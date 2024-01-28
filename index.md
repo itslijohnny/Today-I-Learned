@@ -1,1 +1,1 @@
-/home/johnny/localWP/Today-I-Learned/README.md
+README.md
