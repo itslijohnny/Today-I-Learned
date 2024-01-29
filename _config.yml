@@ -21,6 +21,7 @@ exclude:
   - Gemfile.lock
   - node_modules/
   - vendor
+  - tmp
   - "*.gemspec"
   - "*.gem"
   - LICENSE
@@ -96,7 +97,7 @@ nav_external_links:
 
 # Back to top link
 back_to_top: true
-back_to_top_text: "`Back to top`"
+back_to_top_text: "Back to top"
 
 footer_content: "Copyright &copy; 2019 - 2024 Johnny Li. All contents licensed under CC BY-NC-SA 4.0  
 本站所有内容基于 CC BY-NC-SA 4.0 协议发布，转载需要署名.</br>

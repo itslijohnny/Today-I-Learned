@@ -81,9 +81,7 @@ def get_dir_list(dir):
 
 def scan_dir(path, nodeMap, parentPath, _parent = None, level=3):
     dir_path = abs_path(parentPath,path)
-    # print('dir_path',dir_path)
     file_list =  os.listdir(dir_path)
-    # print('file_list',file_list)
     children = []
     cur_node = nodeMap[dir_path] = {
         "name": path,

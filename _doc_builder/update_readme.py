@@ -1,5 +1,6 @@
 from helper.lib import PROJECT_DIR,get_dir_list,scan_dir,abs_path,get_root_node,relative_path
 import yaml
+from loguru import logger
 
 def genereate_toc(nodes, level_std, _structure,_toc): 
     for node in nodes:
@@ -23,11 +24,11 @@ def process_anchor_link(link_name):
 
 def genereate_note_list(nodes, level_std, _structure): 
     for node in nodes:
-        # print('loop start',node['title'],level_std)
+        logger.info('loop start {} {}'.format(node['name'],str(level_std)))
         if node['level'] != level_std:
             continue
 
-        name, level, intro, children = node['name'], node['level'], node.get('intro', ''), node['children']
+        level, intro, children = node['level'], node.get('intro', ''), node['children']
         file_nodes = []
         dir_nodes = []
 

@@ -1,4 +1,28 @@
-# Today I Learned
+---
+title: Home
+nav_order: 1
+---
+---
+title: Home
+nav_order: 1
+---
+---
+title: Home
+nav_order: 1
+---
+---
+title: Home
+nav_order: 1
+---
+---
+title: Home
+nav_order: 1
+---
+---
+title: Home
+nav_order: 1
+---
+## Today I Learned
 
 > Today I Learned - A list of all things I learn on daily basis.
 
@@ -22,20 +46,26 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
-- [Raspberry Pi](#raspberry-pi)
-- [mac](#mac)
+- [Python](#python)
+- [Docker](#docker)
+- [Web](#web)
+  - [Jekyll](#jekyll)
 
 <!-- </details> -->
 <!-- tocstop -->
-## Raspberry Pi
-- [sfadsf adf ](raspberry-pi/test.md)
+## Python
+- [Generate requirement.txt file](python/generate-requirement.md)
 
 
 [`⬆ Back to TOC`](#toc)
-## mac
-- [Mac 下按住键盘不能输出重复的字符](mac/hold-down-key-cannot-keep-print-character.md)
-- [多网卡在 Mac 系统的问题](mac/double-network-card-problems-in-mac.md)
-- [Mac 的 DNS 问题](mac/dns-troubles-in-mac.md)
+## Docker
+- [Docker compose](docker/docker-compose.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Web
+  ### Jekyll
+  - [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
 
 
 [`⬆ Back to TOC`](#toc)

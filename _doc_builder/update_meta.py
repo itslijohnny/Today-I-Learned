@@ -1,5 +1,6 @@
 from helper.lib import PROJECT_DIR,get_dir_list,scan_dir,abs_path,get_root_node
 import os
+from datetime import datetime
 
 def create_index_file_for_folder(node):
     index_filepath = os.path.join(node['path'], 'index.md')
@@ -38,9 +39,12 @@ def convert_symlink(symlink_path,meta_info):
     print(f"Created file {symlink_path} with the content of {target_path}")
 
 def generate_meta_info(node, hide=False):
+    timestamp = os.path.getmtime(node['path'])
+    date_time = datetime.fromtimestamp(timestamp).strftime("%b %e %Y at %I:%M %p")
     meta_raw = [
             '---',
             'layout: default',
+            f'last_modified_date: {date_time}',
         ]
     if hide:
         meta_raw.append('nav_exclude: true')

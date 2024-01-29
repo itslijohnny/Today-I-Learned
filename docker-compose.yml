@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    volumes:
+      - ./:/checkout
+    command: /bin/sh -c "docker_script.sh"
+    ports:
+      - "4000:4000"
