@@ -83,7 +83,7 @@ jobs:
         shell: bash
 
       - name: switching from HTTPS to SSH
-        run: git remote set-url origin git@github.com:iamjohnnyli/Today-I-Learned.git
+        run: git remote set-url origin ${{ secrets.ssh }}
 
       - name: check for changes
         run: git status
@@ -92,10 +92,16 @@ jobs:
       - name: commit changed files
         run: git -c user.name="${GITHUB_ACTOR}" -c user.email="${GITHUB_ACTOR}@users.noreply.github.com" commit -m "Auto updating README.md"
       - name: fetch from main
-        run: git pull --tags origin main
+        run: git fetch origin main
       - name: push code to main
-        run: git push origin main:main  --tags update_readme
+        run: |
+          git tag update_readme
+          git push origin main:main  --tags update_readme
 
+      - name: Update meta
+        id: update_meta
+        run: python ./_doc_builder/update_meta.py
+        shell: bash
       - name: Build
         uses: actions/jekyll-build-pages@v1
         with:
