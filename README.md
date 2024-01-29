@@ -22,25 +22,17 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
-- [Github](#github)
-- [Docker](#docker)
 - [Machine Learning](#machine-learning)
 - [Python](#python)
 - [Web](#web)
   - [Jekyll](#jekyll)
+- [Docker](#docker)
+- [Math](#math)
+  - [Algebra](#algebra)
+- [Github](#github)
 
 <!-- </details> -->
 <!-- tocstop -->
-## Github
-- [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Docker
-- [Docker compose](docker/docker-compose.md)
-
-
-[`⬆ Back to TOC`](#toc)
 ## Machine Learning
 - [Zero Shot Learning](ml/zero-shot-model.md)
 
@@ -55,6 +47,22 @@ If you find this repository useful, please consider starring it. Additionally, s
 ## Web
   ### Jekyll
   - [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Docker
+- [Docker compose](docker/docker-compose.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Math
+  ### Algebra
+  - [Linear Algebra](math/algebra/linear-algebra.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Github
+- [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
 
 
 [`⬆ Back to TOC`](#toc)
