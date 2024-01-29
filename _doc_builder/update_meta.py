@@ -38,12 +38,11 @@ def convert_symlink(symlink_path,meta_info):
     print(f"Created file {symlink_path} with the content of {target_path}")
 
 def generate_meta_info(node, hide=False):
-    
-    
+    datetime = node["date_time"]
     meta_raw = [
             '---',
             'layout: default',
-            f'last_modified_date: node['date_time']',
+            f'last_modified_date: {datetime}',
         ]
     if hide:
         meta_raw.append('nav_exclude: true')
