@@ -86,7 +86,7 @@ jobs:
         with:
             file-path: README.md
             commit-msg: Update README.md
-            github-token: ${{ secrets.GITHUB_TOKEN }}
+            github-token: ${{ secrets.COMMIT_SECRET }}
 
       - name: Update meta
         id: update_meta
