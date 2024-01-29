@@ -9,7 +9,8 @@ name: Deploy Jekyll site to Pages
 on:
   push:
     branches: ["main"]
-
+    tags-ignore:
+      - update_readme
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -81,28 +82,20 @@ jobs:
         run: python ./_doc_builder/update_readme.py
         shell: bash
 
-      - name: Update resources
-        uses: test-room-7/action-update-file@v1
-        with:
-            file-path: README.md
-            commit-msg: Update README.md
-            github-token: ${{ secrets.COMMIT_SECRET }}
+      - name: switching from HTTPS to SSH
+        run: git remote set-url origin git@github.com:iamjohnnyli/Today-I-Learned.git
 
-      - name: Update meta
-        id: update_meta
-        run: python ./_doc_builder/update_meta.py
-        shell: bash
+      - name: check for changes
+        run: git status
+      - name: stage changed files
+        run: git add .
+      - name: commit changed files
+        run: git -c user.name="${GITHUB_ACTOR}" -c user.email="${GITHUB_ACTOR}@users.noreply.github.com" commit -m "Auto updating README.md"
+      - name: fetch from main
+        run: git pull --tags origin main
+      - name: push code to main
+        run: git push origin main:main  --tags update_readme
 
-      # - name: Build with Jekyll
-      #   Outputs to the './_site' directory by default
-      #   run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-      #   env:
-      #     JEKYLL_ENV: production
-      # - name: Build with Jekyll
-      #   uses: actions/jekyll-build-pages@v1
-      #   with:
-      #     source: ./
-      #     destination: ./_site
       - name: Build
         uses: actions/jekyll-build-pages@v1
         with:
