@@ -22,22 +22,28 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
-- [github](#github)
+- [Docker](#docker)
 - [Machine Learning](#machine-learning)
+- [Python](#python)
 - [Web](#web)
   - [Jekyll](#jekyll)
-- [Docker](#docker)
-- [Python](#python)
+- [github](#github)
 
 <!-- </details> -->
 <!-- tocstop -->
-## github
-- [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
+## Docker
+- [Docker compose](docker/docker-compose.md)
 
 
 [`⬆ Back to TOC`](#toc)
 ## Machine Learning
 - [Zero Shot Learning](ml/zero-shot-model.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Python
+- [Generate requirement.txt file](python/generate-requirement.md)
+- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -47,14 +53,8 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Docker
-- [Docker compose](docker/docker-compose.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Python
-- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
-- [Generate requirement.txt file](python/generate-requirement.md)
+## github
+- [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
 
 
 [`⬆ Back to TOC`](#toc)
