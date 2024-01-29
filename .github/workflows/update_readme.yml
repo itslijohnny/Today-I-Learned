@@ -1,0 +1,30 @@
+name: Update README file
+on: workflow_dispatch
+jobs:
+    resources:
+        name: Update resources
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+
+            - name: Install Python
+              uses: actions/setup-python@v4
+              with:
+                python-version: '3.11'
+
+            - name: Install Dependencies
+              run: pip install -r requirements.txt
+              shell: bash
+
+            - name: Update readme
+              id: update_readme
+              run: python ./_doc_builder/update_readme.py
+              shell: bash
+
+            - name: Update resources
+              uses: test-room-7/action-update-file@v1
+              with:
+                  file-path: README.md
+                  commit-msg: Update README.md
+                  github-token: ${{ secrets.GITHUB_TOKEN }}
