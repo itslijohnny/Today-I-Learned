@@ -4,6 +4,7 @@ import pathlib
 import re
 from .config import IGNORE_DIRS, CATEGORY_NAME_MAP
 from loguru import logger
+from datetime import datetime
 
 #Get PROJECT DIR
 __filename = os.path.abspath (__file__)
@@ -127,6 +128,8 @@ def scan_dir(path, nodeMap, parentPath, _parent = None, level=3):
                 cur_node["intro"] = read_file(cur_path, encoding="utf8")
                 continue
             title = get_title(cur_path)
+            timestamp = os.path.getmtime(cur_path)
+            date_time = datetime.fromtimestamp(timestamp).strftime("%b %e %Y at %I:%M %p")
             children.append({
                 "name": path,
                 "path": cur_path,
@@ -137,6 +140,7 @@ def scan_dir(path, nodeMap, parentPath, _parent = None, level=3):
                 "level": level,
                 "children": [],
                 "parent": cur_parent_node,
+                "date_time": date_time 
             })
         elif stats.is_dir():
             subNode = scan_dir(filename, nodeMap, dir_path, cur_parent_node, level + 1)
