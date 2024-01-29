@@ -9,8 +9,6 @@ name: Deploy Jekyll site to Pages
 on:
   push:
     branches: ["main"]
-    tags-ignore:
-      - update_readme
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -82,26 +80,11 @@ jobs:
         run: python ./_doc_builder/update_readme.py
         shell: bash
 
-      - name: switching from HTTPS to SSH
-        run: git remote set-url origin ${{ secrets.ssh }}
-
-      - name: check for changes
-        run: git status
-      - name: stage changed files
-        run: git add .
-      - name: commit changed files
-        run: git -c user.name="${GITHUB_ACTOR}" -c user.email="${GITHUB_ACTOR}@users.noreply.github.com" commit -m "Auto updating README.md"
-      - name: fetch from main
-        run: git fetch origin main
-      - name: push code to main
-        run: |
-          git tag update_readme
-          git push origin main:main  --tags update_readme
-
       - name: Update meta
         id: update_meta
         run: python ./_doc_builder/update_meta.py
         shell: bash
+
       - name: Build
         uses: actions/jekyll-build-pages@v1
         with:
