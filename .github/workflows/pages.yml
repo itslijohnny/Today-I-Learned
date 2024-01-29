@@ -36,7 +36,7 @@ jobs:
         uses: szenius/set-timezone@v1.2
         with:
           # timezoneLinux: "America/Los_Angeles"
-          timezoneWindows: "America/Los_Angeles"
+          timezoneWindows: "Pacific Standard Time"
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
