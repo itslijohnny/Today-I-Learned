@@ -81,6 +81,13 @@ jobs:
         run: python ./_doc_builder/update_readme.py
         shell: bash
 
+      - name: Update resources
+        uses: test-room-7/action-update-file@v1
+        with:
+            file-path: .md
+            commit-msg: Update README.md
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Update meta
         id: update_meta
         run: python ./_doc_builder/update_meta.py

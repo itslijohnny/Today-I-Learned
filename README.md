@@ -1,27 +1,3 @@
----
-title: Home
-nav_order: 1
----
----
-title: Home
-nav_order: 1
----
----
-title: Home
-nav_order: 1
----
----
-title: Home
-nav_order: 1
----
----
-title: Home
-nav_order: 1
----
----
-title: Home
-nav_order: 1
----
 ## Today I Learned
 
 > Today I Learned - A list of all things I learn on daily basis.
@@ -46,6 +22,8 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
+- [Machine Learning](#machine-learning)
+- [github](#github)
 - [Python](#python)
 - [Docker](#docker)
 - [Web](#web)
@@ -53,7 +31,18 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 <!-- </details> -->
 <!-- tocstop -->
+## Machine Learning
+- [Zero Shot Learning](ml/zero-shot-model.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## github
+- [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
+
+
+[`⬆ Back to TOC`](#toc)
 ## Python
+- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
 - [Generate requirement.txt file](python/generate-requirement.md)
 
 
