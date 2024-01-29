@@ -22,34 +22,29 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
-- [Machine Learning](#machine-learning)
 - [Github](#github)
-- [Python](#python)
+- [Docker](#docker)
+- [Machine Learning](#machine-learning)
 - [Math](#math)
   - [Algebra](#algebra)
-- [Docker](#docker)
+- [Python](#python)
 - [Web](#web)
   - [Jekyll](#jekyll)
-- [Docker](#docker)
-- [Math](#math)
-  - [Algebra](#algebra)
-- [Github](#github)
 
 <!-- </details> -->
 <!-- tocstop -->
-## Machine Learning
-- [Zero Shot Learning](ml/zero-shot-model.md)
-
-
-[`⬆ Back to TOC`](#toc)
 ## Github
 - [GitHub Checkout Action Preserve File Modification Time](Github/restore_file_datetime.md)
 
 
 [`⬆ Back to TOC`](#toc)
-## Python
-- [How to get file modify date/time](Python/how-to-get-file-modify-datetime.md)
-- [Generate requirement.txt file](Python/generate-requirement.md)
+## Docker
+- [Docker compose](Docker/docker-compose.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Machine Learning
+- [Zero Shot Learning](ml/zero-shot-model.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -59,30 +54,15 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Docker
-- [Docker compose](Docker/docker-compose.md)
+## Python
+- [Generate requirement.txt file](Python/generate-requirement.md)
+- [How to get file modify date/time](Python/how-to-get-file-modify-datetime.md)
 
 
 [`⬆ Back to TOC`](#toc)
 ## Web
   ### Jekyll
   - [Run Jekyll in Docker](Web/Jekyll/run-jekyll-in-docker.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Docker
-- [Docker compose](docker/docker-compose.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Math
-  ### Algebra
-  - [Linear Algebra](math/algebra/linear-algebra.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Github
-- [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
 
 
 [`⬆ Back to TOC`](#toc)
