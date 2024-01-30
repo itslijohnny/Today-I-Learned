@@ -140,13 +140,13 @@ plugins:
   - jekyll-titles-from-headings
   
 
-markdown: CommonMarkGhPages
+# markdown: CommonMarkGhPages
 
 compress_html: 
   blanklines: true
 
 # LaTeX rendering via "katex" (KaTeX, default) or "mathjax" (MathJax) or "none" / "off" (NO rendering)
-latex: mathjax
+latex: katex
 
 
 readme_index:
