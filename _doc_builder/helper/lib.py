@@ -40,8 +40,12 @@ def to_camel_case(text:str) -> str:
     Returns:
         str: camel case text
     """
-    text = re.sub(r"\s(.)", lambda match: match.group(1).upper(), text)
-    return text
+    words = text.split()
+    new_words = []
+    for word in words:
+        new_word = word.capitalize()
+        new_words.append(new_word)
+    return "".join(new_words)
 
 def read_file(path:str, encoding:str="utf8") -> str:
     """ Return the file content as a string
