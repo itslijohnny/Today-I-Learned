@@ -39,8 +39,8 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 [`⬆ Back to TOC`](#toc)
 ## Math
-  ### Algebra
-  - [Linear Algebra](math/algebra/linear-algebra.md)
+### Algebra
+- [Linear Algebra](math/algebra/linear-algebra.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -56,8 +56,8 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 [`⬆ Back to TOC`](#toc)
 ## Web
-  ### Jekyll
-  - [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
+### Jekyll
+- [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
 
 
 [`⬆ Back to TOC`](#toc)
