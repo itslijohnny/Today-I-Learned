@@ -40,15 +40,15 @@ def genereate_note_list(nodes, level_std, _structure):
                     continue
                 file_nodes.append(child_node)
         
-        _level = '  '*(level-2)+'#'*(level)
+        _level = '#'*(level)
         _structure.append(f'{_level} {node["title"]}')
         if intro:
-            _structure.append('  '*(level-2)+intro.strip() + '\n')
+            _structure.append(intro.strip() + '\n')
 
         for n in file_nodes:
             # print('n',f'- [{n["title"]}]({process_anchor_link(relative_path(n["path"]))})  ')
             if n["title"] != '':
-                _structure.append('  '*(level-2)+f'- [{n["title"]}]({process_anchor_link(relative_path(n["path"]))})')
+                _structure.append(f'- [{n["title"]}]({process_anchor_link(relative_path(n["path"]))})')
         if len(dir_nodes)>0:
             # print('dir_nodes',dir_nodes)
             genereate_note_list(dir_nodes, level_std + 1, _structure)
