@@ -43,11 +43,19 @@ A*B #Hadamard product in python
 
 ### Reduction
 
-`sum:` $\sum_{i=1}^n x_i$ 
+#### Sum
+$\sum_{i=1}^n x_i$ 
 
 $\sum_{i=1}^{m} \sum_{j=1}^{n} a_{ij}$.
 
 ```python
 a.sum()
 a.sum(axis=0) #To sum over all elements along the rows (axis 0)
+a.sum(axis=[0, 1]) # 
+```
+#### Mean
+
+```python
+A.mean(), A.sum() / A.numel()
+A.mean(axis=0), A.sum(axis=0) / A.shape[0]
 ```
