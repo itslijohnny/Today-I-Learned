@@ -142,6 +142,12 @@ plugins:
 
 markdown: CommonMarkGhPages
 
+compress_html: 
+  blanklines: true
+
+# LaTeX rendering via "katex" (KaTeX, default) or "mathjax" (MathJax) or "none" / "off" (NO rendering)
+latex: mathjax
+
 
 readme_index:
   enabled:          true
