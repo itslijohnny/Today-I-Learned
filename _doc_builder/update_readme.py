@@ -40,7 +40,7 @@ def genereate_note_list(nodes, level_std, _structure):
                     continue
                 file_nodes.append(child_node)
         
-        _level = '#'*(level)
+        _level = '##'*(level-1)
         _structure.append(f'{_level} {node["title"]}')
         if intro:
             _structure.append(intro.strip() + '\n')
@@ -70,12 +70,12 @@ def main():
         with open(abs_path(file), 'r') as f:
             content =  f.read() 
         structure.append(content)
-    structure.append('\n## TOC\n<!-- toc -->\n<!-- <details close> -->\n<!-- <summary>Collapse/Expand</summary> -->')
+    structure.append('\n------\n## TOC\n<!-- toc -->\n<!-- <details close> -->\n<!-- <summary>Collapse/Expand</summary> -->')
     toc = genereate_toc(rootNode, 2, structure,[])
     for t in toc:
         toc_level = '  '*(t['level']-2)
         structure.append(f'{toc_level}- [{t["name"]}](#{process_anchor_link(t["name"])})') 
-    structure.append('\n<!-- </details> -->\n<!-- tocstop -->') 
+    structure.append('\n<!-- </details> -->\n<!-- tocstop -->\n------') 
     structure = genereate_note_list(rootNode, 2, structure)
     with open(abs_path('README.md'), 'w') as f: 
         f.write('\n'.join(structure))
