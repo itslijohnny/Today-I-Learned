@@ -76,7 +76,7 @@ jobs:
         shell: bash
 
       - name: Update chart
-        id: update_readme
+        id: update_chart
         run: python ./_doc_builder/contribute_image.py
         shell: bash
 
