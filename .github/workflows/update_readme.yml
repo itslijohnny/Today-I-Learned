@@ -20,6 +20,11 @@ jobs:
               run: pip install -r requirements.txt
               shell: bash
 
+            - name: Update chart
+              id: update_readme
+              run: python ./_doc_builder/contribute_image.py
+              shell: bash
+
             - name: Update readme
               id: update_readme
               run: python ./_doc_builder/update_readme.py
