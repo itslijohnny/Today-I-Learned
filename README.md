@@ -18,45 +18,49 @@ If you have any comments or ideas, please share them in the [Discussions](https:
 If you find this repository useful, please consider starring it. Additionally, stay updated on the latest update by following [@iamjohnny](https://twitter.com/IAmJohnnyLi) on Twitter.
 
 
-![image](./_doc_builder/til_update.png)
+![image](assets/til_update.png)
 
 ------
 ## TOC
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
-- [Github](#github)
 - [Machine Learning](#machine-learning)
-- [Web](#web)
-  - [Jekyll](#jekyll)
+- [Assets](#assets)
 - [Python](#python)
+- [Github](#github)
+- [Docker](#docker)
 - [Math](#math)
   - [Algebra](#algebra)
-- [Docker](#docker)
+- [Web](#web)
+  - [Jekyll](#jekyll)
 
 <!-- </details> -->
 <!-- tocstop -->
 ------
-## Github
-- [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
-
-
-[`⬆ Back to TOC`](#toc)
 ## Machine Learning
 - [Zero Shot Learning](ml/zero-shot-model.md)
 
 
 [`⬆ Back to TOC`](#toc)
-## Web
-#### Jekyll
-- [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
+## Assets
 
 
 [`⬆ Back to TOC`](#toc)
 ## Python
-- [Generate requirement.txt file](python/generate-requirement.md)
 - [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
 - [a quick way to find the index of item in list](python/find-index.md)
+- [Generate requirement.txt file](python/generate-requirement.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Github
+- [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Docker
+- [Docker compose](docker/docker-compose.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -66,8 +70,9 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Docker
-- [Docker compose](docker/docker-compose.md)
+## Web
+#### Jekyll
+- [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
 
 
 [`⬆ Back to TOC`](#toc)

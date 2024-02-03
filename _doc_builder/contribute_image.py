@@ -17,4 +17,4 @@ summary.set_index("date", inplace=True)
 summary["commit_id"]
 fig, axes = calmap.calendarplot(summary["commit_id"], fig_kws={"figsize": (12, 8)}, cmap="YlGn")
 axes[0].set_title("TIL Updates", fontsize=18)
-plt.savefig(abs_path("_doc_builder/til_update.png"), bbox_inches='tight')
+plt.savefig(abs_path("assets/til_update.png"), bbox_inches='tight')
