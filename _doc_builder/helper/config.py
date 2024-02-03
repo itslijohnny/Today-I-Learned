@@ -3,7 +3,7 @@ with open('_config.yml', 'r') as file:
     config = yaml.safe_load(file)
     exclude = config['exclude']
 IGNORE_DIRS = [
-    'database', 'node_modules', 'makefile-utils'
+    'database', 'node_modules', 'makefile-utils', 'assets'
 ]+exclude
 
 
