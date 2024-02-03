@@ -15,4 +15,4 @@ _site/
 vendor/
 tmp/
 .env
-README.md
+!README.md
