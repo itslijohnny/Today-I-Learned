@@ -3,6 +3,16 @@ on:
     push:
         branches: ["main"]
     workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
     resources:
         name: Update resources
@@ -10,12 +20,28 @@ jobs:
         steps:
             - name: Checkout
               uses: actions/checkout@v3
+            - name: Checkout
+              uses: actions/checkout@v3.0.0
+              with:
+                fetch-depth: 0
 
+            - name: Restore Timestamps
+              uses: chetan/git-restore-mtime-action@v1
+            
+            - name: Set Timezone
+              uses: szenius/set-timezone@v1.2
+              with:
+                timezoneLinux: "America/Los_Angeles"
+                # timezoneWindows: "Pacific Standard Time"
+
+            - name: Setup Pages
+              uses: actions/configure-pages@v3
+              
             - name: Install Python
               uses: actions/setup-python@v4
               with:
                 python-version: '3.11'
-
+            
             - name: Install Dependencies
               run: pip install -r requirements.txt
               shell: bash
