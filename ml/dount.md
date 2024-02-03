@@ -1,4 +1,4 @@
-# Donut Model
+## Donut Model
 
 The Donut model was proposed in OCR-free Document Understanding Transformer 
 https://huggingface.co/docs/transformers/model_doc/donut
