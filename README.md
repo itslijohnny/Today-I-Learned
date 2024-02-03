@@ -44,6 +44,7 @@ If you find this repository useful, please consider starring it. Additionally, s
 [`⬆ Back to TOC`](#toc)
 ## Machine Learning
 - [Zero Shot Learning](ml/zero-shot-model.md)
+- [Donut Model](ml/dount.md)
 
 
 [`⬆ Back to TOC`](#toc)
