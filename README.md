@@ -25,18 +25,26 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
+- [Python](#python)
 - [Github](#github)
 - [Machine Learning](#machine-learning)
-- [Web](#web)
-  - [Jekyll](#jekyll)
-- [Python](#python)
 - [Math](#math)
   - [Algebra](#algebra)
+- [Web](#web)
+  - [Jekyll](#jekyll)
 - [Docker](#docker)
 
 <!-- </details> -->
 <!-- tocstop -->
 ------
+## Python
+- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
+- [Generate requirement.txt file](python/generate-requirement.md)
+- [Date parser](python/date-parser.md)
+- [a quick way to find the index of item in list](python/find-index.md)
+
+
+[`⬆ Back to TOC`](#toc)
 ## Github
 - [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
 
@@ -48,23 +56,15 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Web
-#### Jekyll
-- [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Python
-- [Generate requirement.txt file](python/generate-requirement.md)
-- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
-- [a quick way to find the index of item in list](python/find-index.md)
-- [Date parser](python/date-parser.md)
-
-
-[`⬆ Back to TOC`](#toc)
 ## Math
 #### Algebra
 - [Linear Algebra](math/algebra/linear-algebra.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Web
+#### Jekyll
+- [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
 
 
 [`⬆ Back to TOC`](#toc)
