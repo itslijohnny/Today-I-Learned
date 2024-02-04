@@ -25,39 +25,40 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
-- [Machine Learning](#machine-learning)
-- [Python](#python)
 - [Github](#github)
-- [Docker](#docker)
-- [Math](#math)
-  - [Algebra](#algebra)
+- [Machine Learning](#machine-learning)
 - [Web](#web)
   - [Jekyll](#jekyll)
+- [Python](#python)
+- [Math](#math)
+  - [Algebra](#algebra)
+- [Docker](#docker)
 
 <!-- </details> -->
 <!-- tocstop -->
 ------
-## Machine Learning
-- [Zero Shot Learning](ml/zero-shot-model.md)
-- [Donut Model](ml/dount.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Python
-- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
-- [a quick way to find the index of item in list](python/find-index.md)
-- [Generate requirement.txt file](python/generate-requirement.md)
-- [Date parser](python/date-parser.md)
-
-
-[`⬆ Back to TOC`](#toc)
 ## Github
 - [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
 
 
 [`⬆ Back to TOC`](#toc)
-## Docker
-- [Docker compose](docker/docker-compose.md)
+## Machine Learning
+- [Zero Shot Learning](ml/zero-shot-model.md)
+- [Donut Model](ml/dount_model.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Web
+#### Jekyll
+- [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Python
+- [Generate requirement.txt file](python/generate-requirement.md)
+- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
+- [a quick way to find the index of item in list](python/find-index.md)
+- [Date parser](python/date-parser.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -67,9 +68,8 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Web
-#### Jekyll
-- [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
+## Docker
+- [Docker compose](docker/docker-compose.md)
 
 
 [`⬆ Back to TOC`](#toc)
