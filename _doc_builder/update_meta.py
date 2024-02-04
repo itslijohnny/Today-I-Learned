@@ -1,4 +1,5 @@
 from helper.lib import PROJECT_DIR,get_dir_list,scan_dir,abs_path,get_root_node
+from tag_generator import get_tags
 import os
 
 def create_index_file_for_folder(node):
@@ -52,6 +53,11 @@ def generate_meta_info(node, hide=False):
         if node['parent']['parent']:
             node_gp_title = node['parent']['parent']['title']
             meta_raw.append(f'grand_parent: {node_gp_title}') 
+    with open(node['path'], 'r') as f:
+        content = f.read()
+    tags = (" ").join(get_tags(content))
+    meta_raw.append(f'tags: {tags}')
+    meta_raw.append(f'description: {tags}')
     meta_raw.extend(['---', '', ''])
     return meta_raw 
 

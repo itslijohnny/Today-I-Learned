@@ -61,7 +61,7 @@ def main():
     with open(abs_path('_config.yml'), 'r') as file:
         config = yaml.safe_load(file)
     title = config['title']
-    description = config['description']
+    description = config['tagline']
     structure = [
         f'## {title}\n',
         f'> {description}\n',
