@@ -20,4 +20,4 @@ Donut is always used within the [VisionEncoderDecoder](https://huggingface.co/do
 We refer to the [tutorial notebooks](https://github.com/NielsRogge/Transformers-Tutorials/tree/master/Donut).
 
 
-{% gist d2d9d06dc4338a5e5641ab7fec73dc07 gist %}
+{% gist d2d9d06dc4338a5e5641ab7fec73dc07 %}
