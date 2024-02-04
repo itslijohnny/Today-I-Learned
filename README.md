@@ -25,18 +25,13 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
-- [Today I Learned](#today-i-learned)
-- [About](#about)
-- [Feedback](#feedback)
-- [Tracker](#tracker)
-- [TOC](#toc)
 - [Github](#github)
 - [Machine Learning](#machine-learning)
 - [Web](#web)
-    - [Jekyll](#jekyll)
+  - [Jekyll](#jekyll)
 - [Python](#python)
 - [Math](#math)
-    - [Algebra](#algebra)
+  - [Algebra](#algebra)
 - [Docker](#docker)
 
 <!-- </details> -->
