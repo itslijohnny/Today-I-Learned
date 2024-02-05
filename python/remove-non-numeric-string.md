@@ -1,4 +1,7 @@
-## Remove non numeric String.md
+
+## Remove non numeric string
+
+#python
 
 ```python
 
