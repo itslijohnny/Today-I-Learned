@@ -58,6 +58,7 @@ If you find this repository useful, please consider starring it. Additionally, s
 - [Generate requirement.txt file](python/generate-requirement.md)
 - [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
 - [a quick way to find the index of item in list](python/find-index.md)
+- [Remove non numeric String.md](python/remove-non-numeric-string.md)
 - [Date parser](python/date-parser.md)
 
 
