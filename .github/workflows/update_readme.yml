@@ -46,6 +46,11 @@ jobs:
               id: update_chart
               run: python ./_doc_builder/contribute_image.py
               shell: bash
+            
+             - name: Update file name
+              id: update_file_name
+              run: python ./_doc_builder/update_file_name.py
+              shell: bash
 
             - name: Update readme
               id: update_readme
