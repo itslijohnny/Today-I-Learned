@@ -25,31 +25,22 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
-- [Machine Learning](#machine-learning)
-- [Python](#python)
-- [Github](#github)
-- [Docker](#docker)
 - [Obsidian](#obsidian)
-- [Math](#math)
-  - [Algebra](#algebra)
+- [Github](#github)
+- [Machine Learning](#machine-learning)
 - [Web](#web)
   - [Jekyll](#jekyll)
+- [Python](#python)
+- [Math](#math)
+  - [Algebra](#algebra)
+- [Docker](#docker)
 
 <!-- </details> -->
 <!-- tocstop -->
 ------
-## Machine Learning
-- [Zero Shot Learning](ml/zero-shot-model.md)
-- [Donut Model](ml/dount_model.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Python
-- [Remove non numeric string](python/remove-non-numeric-string.md)
-- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
-- [a quick way to find the index of item in list](python/find-index.md)
-- [Generate requirement.txt file](python/generate-requirement.md)
-- [Date parser](python/date-parser.md)
+## Obsidian
+- [Tour 一起看看Linan是怎么在Obsidian里记学术笔记和做日程管理的](obsidian/tour-一起看看linan是怎么在obsidian里记学术笔记和做日程管理的.md)
+- [Obsidian - The Basics of Taking Notes - Effective Remote Work](obsidian/obsidian-the-basics-of-taking-notes-effective-remote-work.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -58,14 +49,24 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Docker
-- [Docker compose](docker/docker-compose.md)
+## Machine Learning
+- [Zero Shot Learning](ml/zero-shot-model.md)
+- [Donut Model](ml/dount_model.md)
 
 
 [`⬆ Back to TOC`](#toc)
-## Obsidian
-- [Obsidian - The Basics of Taking Notes - Effective Remote Work](obsidian/obsidian-the-basics-of-taking-notes-effective-remote-work.md)
-- [Tour 一起看看Linan是怎么在Obsidian里记学术笔记和做日程管理的](obsidian/tour-一起看看linan是怎么在obsidian里记学术笔记和做日程管理的.md)
+## Web
+#### Jekyll
+- [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Python
+- [Generate requirement.txt file](python/generate-requirement.md)
+- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
+- [a quick way to find the index of item in list](python/find-index.md)
+- [Remove non numeric string](python/remove-non-numeric-string.md)
+- [Date parser](python/date-parser.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -75,9 +76,8 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Web
-#### Jekyll
-- [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
+## Docker
+- [Docker compose](docker/docker-compose.md)
 
 
 [`⬆ Back to TOC`](#toc)
