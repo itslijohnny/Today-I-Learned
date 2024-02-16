@@ -71,11 +71,24 @@ def get_title(path:str) -> str:
         str: Markdown h2 title
     """
     content = read_file(path, encoding="utf8")
-    matched = re.search(r"##? (.+)", content)
-    if not matched:
+    # if the content not start with --- font matter and not contain # in fist 5 words then return empty string, else re.search for the title start with ## or # followed by space
+    if not content.startswith("---") and not re.search(r"^(?:\w+\W+){0,5}#", content):
         return ""
-    title = matched.group(1)
-    title = re.sub(r"\[(.*?)\]", r"\1", title)
+    elif content.startswith("---"):
+        # find the tile in the front matter
+        matched = re.search(r"title: (.+)", content)
+        if not matched:
+            return ""
+        title = matched.group(1)
+        title = re.sub(r"\[(.*?)\]", r"\1", title)
+    elif re.search(r"^(?:\w+\W+){0,5}#", content):
+        matched = re.search(r"^(?:\w+\W+){0,5}##? (.+)", content)
+        if not matched:
+            return ""
+        title = matched.group(1)
+        title = re.sub(r"\[(.*?)\]", r"\1", title)
+    else:
+        title = ""
     return title
 
 def get_dir_list(dir):
