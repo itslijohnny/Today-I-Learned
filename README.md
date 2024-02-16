@@ -26,32 +26,21 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
 - [Obsidian](#obsidian)
-- [Github](#github)
-- [Machine Learning](#machine-learning)
 - [Web](#web)
   - [Jekyll](#jekyll)
-- [Python](#python)
+- [Docker](#docker)
 - [Math](#math)
   - [Algebra](#algebra)
-- [Docker](#docker)
+- [Machine Learning](#machine-learning)
+- [Github](#github)
+- [Python](#python)
 
 <!-- </details> -->
 <!-- tocstop -->
 ------
 ## Obsidian
-- [Tour 一起看看Linan是怎么在Obsidian里记学术笔记和做日程管理的](obsidian/tour-一起看看linan是怎么在obsidian里记学术笔记和做日程管理的.md)
 - [Obsidian - The Basics of Taking Notes - Effective Remote Work](obsidian/obsidian-the-basics-of-taking-notes-effective-remote-work.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Github
-- [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Machine Learning
-- [Zero Shot Learning](ml/zero-shot-model.md)
-- [Donut Model](ml/dount_model.md)
+- [Tour 一起看看Linan是怎么在Obsidian里记学术笔记和做日程管理的](obsidian/tour-一起看看linan是怎么在obsidian里记学术笔记和做日程管理的.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -61,12 +50,8 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Python
-- [Generate requirement.txt file](python/generate-requirement.md)
-- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
-- [a quick way to find the index of item in list](python/find-index.md)
-- [Remove non numeric string](python/remove-non-numeric-string.md)
-- [Date parser](python/date-parser.md)
+## Docker
+- [Docker compose](docker/docker-compose.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -76,8 +61,24 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Docker
-- [Docker compose](docker/docker-compose.md)
+## Machine Learning
+- [LayoutLM for Invoices  ](ml/date-related-dataset-and-package.md)
+- [Zero Shot Learning](ml/zero-shot-model.md)
+- [Donut Model](ml/dount_model.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Github
+- [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Python
+- [Remove non numeric string](python/remove-non-numeric-string.md)
+- [Generate requirement.txt file](python/generate-requirement.md)
+- [Date parser](python/date-parser.md)
+- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
+- [a quick way to find the index of item in list](python/find-index.md)
 
 
 [`⬆ Back to TOC`](#toc)
