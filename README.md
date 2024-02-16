@@ -62,7 +62,7 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 [`⬆ Back to TOC`](#toc)
 ## Machine Learning
-- [LayoutLM for Invoices  ](ml/date-related-dataset-and-package.md)
+- [Date related dataset and package.md  ](ml/date-related-dataset-and-package.md)
 - [Zero Shot Learning](ml/zero-shot-model.md)
 - [Donut Model](ml/dount_model.md)
 
