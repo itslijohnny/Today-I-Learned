@@ -74,8 +74,8 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 [`⬆ Back to TOC`](#toc)
 ## Python
-- [Remove non numeric string](python/remove-non-numeric-string.md)
 - [Generate requirement.txt file](python/generate-requirement.md)
+- [remove-non-numeric-string](python/.md)
 - [Date parser](python/date-parser.md)
 - [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
 - [a quick way to find the index of item in list](python/find-index.md)
