@@ -6,7 +6,7 @@ This repository is inspired by [jbranchaud/til](https://github.com/jbranchaud/ti
 
 You can read these TILs at [lijohnny.com/Today-I-Learned/](https://lijohnny.com/Today-I-Learned/) for a better reading experience, or search for specific topics.or use the search functionality to find specific topics.
 
-## About
+## About  
 
 This repository utilizes a minimal template for creating a site with the [Just the Docs](https://just-the-docs.github.io/just-the-docs/) theme. To streamline the documentation process, I've developed Python scripts to automate various tasks, including the generating meta header for each Markdown file and the creating of `index.md` files in each folder to facilitate Jekyll's menu generation. If you are intrested, you can check [_doc_builder](/_doc_builder/) folder.
 
@@ -25,17 +25,12 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
-- [Today I Learned](#today-i-learned)
-- [About](#about)
-- [Feedback](#feedback)
-- [Tracker](#tracker)
-- [TOC](#toc)
 - [Obsidian](#obsidian)
 - [Web](#web)
-    - [Jekyll](#jekyll)
+  - [Jekyll](#jekyll)
 - [Docker](#docker)
 - [Math](#math)
-    - [Algebra](#algebra)
+  - [Algebra](#algebra)
 - [Machine Learning](#machine-learning)
 - [Github](#github)
 - [Python](#python)
@@ -79,8 +74,8 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 [`⬆ Back to TOC`](#toc)
 ## Python
-- [Remove non numeric string](python/remove-non-numeric-string.md)
 - [Generate requirement.txt file](python/generate-requirement.md)
+- [remove-non-numeric-string](python/.md)
 - [Date parser](python/date-parser.md)
 - [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
 - [a quick way to find the index of item in list](python/find-index.md)
