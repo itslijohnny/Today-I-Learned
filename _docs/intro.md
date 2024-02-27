@@ -2,7 +2,7 @@ This repository is inspired by [jbranchaud/til](https://github.com/jbranchaud/ti
 
 You can read these TILs at [lijohnny.com/Today-I-Learned/](https://lijohnny.com/Today-I-Learned/) for a better reading experience, or search for specific topics.or use the search functionality to find specific topics.
 
-## About
+## About  
 
 This repository utilizes a minimal template for creating a site with the [Just the Docs](https://just-the-docs.github.io/just-the-docs/) theme. To streamline the documentation process, I've developed Python scripts to automate various tasks, including the generating meta header for each Markdown file and the creating of `index.md` files in each folder to facilitate Jekyll's menu generation. If you are intrested, you can check [_doc_builder](/_doc_builder/) folder.
 
