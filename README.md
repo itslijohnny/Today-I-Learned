@@ -27,13 +27,13 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- <summary>Collapse/Expand</summary> -->
 - [Web](#web)
   - [Jekyll](#jekyll)
-- [Math](#math)
-  - [Algebra](#algebra)
-- [Obsidian](#obsidian)
-- [Docker](#docker)
 - [Machine Learning](#machine-learning)
+- [Docker](#docker)
+- [Obsidian](#obsidian)
 - [Python](#python)
 - [Github](#github)
+- [Math](#math)
+  - [Algebra](#algebra)
 
 <!-- </details> -->
 <!-- tocstop -->
@@ -44,15 +44,10 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Math
-#### Algebra
-- [Linear Algebra](math/algebra/linear-algebra.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Obsidian
-- [Tour 一起看看Linan是怎么在Obsidian里记学术笔记和做日程管理的](obsidian/tour-一起看看linan是怎么在obsidian里记学术笔记和做日程管理的.md)
-- [Obsidian - The Basics of Taking Notes - Effective Remote Work](obsidian/obsidian-the-basics-of-taking-notes-effective-remote-work.md)
+## Machine Learning
+- [Date related dataset and package.md  ](ml/date-related-dataset-and-package.md)
+- [Donut Model](ml/dount_model.md)
+- [Zero Shot Learning](ml/zero-shot-model.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -61,24 +56,29 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Machine Learning
-- [Zero Shot Learning](ml/zero-shot-model.md)
-- [Date related dataset and package.md  ](ml/date-related-dataset-and-package.md)
-- [Donut Model](ml/dount_model.md)
+## Obsidian
+- [Obsidian - The Basics of Taking Notes - Effective Remote Work](obsidian/obsidian-the-basics-of-taking-notes-effective-remote-work.md)
+- [Tour 一起看看Linan是怎么在Obsidian里记学术笔记和做日程管理的](obsidian/tour-一起看看linan是怎么在obsidian里记学术笔记和做日程管理的.md)
 
 
 [`⬆ Back to TOC`](#toc)
 ## Python
-- [Generate requirement.txt file](python/generate-requirement.md)
 - [remove-non-numeric-string](python/.md)
-- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
 - [How to use dateparser](python/how-to-use-dateparser.md)
+- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
+- [Generate requirement.txt file](python/generate-requirement.md)
 - [a quick way to find the index of item in list](python/find-index.md)
 
 
 [`⬆ Back to TOC`](#toc)
 ## Github
 - [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Math
+#### Algebra
+- [Linear Algebra](math/algebra/linear-algebra.md)
 
 
 [`⬆ Back to TOC`](#toc)
