@@ -64,6 +64,7 @@ If you find this repository useful, please consider starring it. Additionally, s
 [`⬆ Back to TOC`](#toc)
 ## Python
 - [remove-non-numeric-string](python/.md)
+- [How to use dateparser](python/how-to-use-dateparser.md)
 - [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
 - [Generate requirement.txt file](python/generate-requirement.md)
 - [a quick way to find the index of item in list](python/find-index.md)
