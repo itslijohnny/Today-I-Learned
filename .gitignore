@@ -16,3 +16,4 @@ vendor/
 tmp/
 .env
 !README.md
+README.md

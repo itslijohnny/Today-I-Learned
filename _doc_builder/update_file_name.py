@@ -17,7 +17,7 @@ def update_file_title_and_name(nodes, level_std):
             elif not child_node['isSymbolicLink'] and not child_node['isDir']:
                 if child_node['title'] == '':
                     generate_title_from_path(child_node['path'])
-                    rename_file(child_node['path'])
+                    # rename_file(child_node['path'])
                     logger.info('Name Updated {}'.format(child_node['path']))
         if len(dir_nodes)>0:
             update_file_title_and_name(dir_nodes, level_std + 1)
@@ -38,6 +38,7 @@ def rename_file(path):
     new_name = new_name + '.md'
     new_path = os.path.join(base_dir, new_name)
     os.rename(path, new_path)
+
 # %%
 def main():
     rootNode = get_root_node()

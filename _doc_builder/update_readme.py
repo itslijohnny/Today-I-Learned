@@ -20,7 +20,8 @@ def genereate_toc(nodes, level_std, _structure,_toc):
 
 
 def process_anchor_link(link_name):
-    return link_name.lower().replace(" ",'-')
+    # return link_name.lower().replace(" ",'-')
+    return link_name.repace(' ','%20')
 
 def genereate_note_list(nodes, level_std, _structure): 
     for node in nodes:

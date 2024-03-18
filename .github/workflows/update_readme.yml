@@ -57,17 +57,6 @@ jobs:
               run: python ./_doc_builder/update_readme.py
               shell: bash
 
-            - name: Commit files 
-              id: commit_files 
-              run:
-                  git config --local user.name actions-user
-                  git config --local user.email "actions@github.com"
-                  if ! git diff --exit-code; then
-                      git add your/files/here
-                      git commit -am "GH Action Files added $(date)"
-                      git push -f origin main
-                  fi
-
             - name: Update resources
               uses: test-room-7/action-update-file@v1
               with:

@@ -25,15 +25,20 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
+- [Today I Learned](#today-i-learned)
+- [About](#about)
+- [Feedback](#feedback)
+- [Tracker](#tracker)
+- [TOC](#toc)
 - [Web](#web)
-  - [Jekyll](#jekyll)
+    - [Jekyll](#jekyll)
 - [Machine Learning](#machine-learning)
 - [Docker](#docker)
 - [Obsidian](#obsidian)
 - [Python](#python)
 - [Github](#github)
 - [Math](#math)
-  - [Algebra](#algebra)
+    - [Algebra](#algebra)
 
 <!-- </details> -->
 <!-- tocstop -->
@@ -64,7 +69,7 @@ If you find this repository useful, please consider starring it. Additionally, s
 [`⬆ Back to TOC`](#toc)
 ## Python
 - [remove-non-numeric-string](python/.md)
-- [How to use dateparser](python/how-to-use-dateparser.md)
+- [How to use dateparser](python/How%20to%20use%20dateparser.md)
 - [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
 - [Generate requirement.txt file](python/generate-requirement.md)
 - [a quick way to find the index of item in list](python/find-index.md)
