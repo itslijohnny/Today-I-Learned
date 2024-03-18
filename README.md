@@ -25,34 +25,34 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
-- [Today I Learned](#today-i-learned)
-- [About](#about)
-- [Feedback](#feedback)
-- [Tracker](#tracker)
-- [TOC](#toc)
-- [Web](#web)
-    - [Jekyll](#jekyll)
-- [Machine Learning](#machine-learning)
-- [Docker](#docker)
-- [Obsidian](#obsidian)
-- [Python](#python)
-- [Github](#github)
-- [Math](#math)
-    - [Algebra](#algebra)
+- [Web](#Web)
+  - [Jekyll](#Jekyll)
+- [Math](#Math)
+  - [Algebra](#Algebra)
+- [Obsidian](#Obsidian)
+- [Docker](#Docker)
+- [Machine Learning](#Machine%20Learning)
+- [Python](#Python)
+- [Github](#Github)
 
 <!-- </details> -->
 <!-- tocstop -->
 ------
 ## Web
 #### Jekyll
-- [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
+- [Run Jekyll in Docker](Web/Jekyll/run-jekyll-in-docker.md)
 
 
 [`⬆ Back to TOC`](#toc)
-## Machine Learning
-- [Date related dataset and package.md  ](ml/date-related-dataset-and-package.md)
-- [Donut Model](ml/dount_model.md)
-- [Zero Shot Learning](ml/zero-shot-model.md)
+## Math
+#### Algebra
+- [Linear Algebra](math/algebra/linear-algebra.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Obsidian
+- [Tour 一起看看Linan是怎么在Obsidian里记学术笔记和做日程管理的](obsidian/Tour%20一起看看Linan是怎么在Obsidian里记学术笔记和做日程管理的.md)
+- [Obsidian - The Basics of Taking Notes - Effective Remote Work](obsidian/Obsidian%20-%20The%20Basics%20of%20Taking%20Notes%20-%20Effective%20Remote%20Work.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -61,29 +61,25 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Obsidian
-- [Obsidian - The Basics of Taking Notes - Effective Remote Work](obsidian/obsidian-the-basics-of-taking-notes-effective-remote-work.md)
-- [Tour 一起看看Linan是怎么在Obsidian里记学术笔记和做日程管理的](obsidian/tour-一起看看linan是怎么在obsidian里记学术笔记和做日程管理的.md)
+## Machine Learning
+- [Zero Shot Learning](ml/zero-shot-model.md)
+- [Date related dataset and package.md  ](ml/date-related-dataset-and-package.md)
+- [Donut Model](ml/dount_model.md)
 
 
 [`⬆ Back to TOC`](#toc)
 ## Python
-- [remove-non-numeric-string](python/.md)
-- [How to use dateparser](python/How%20to%20use%20dateparser.md)
-- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
 - [Generate requirement.txt file](python/generate-requirement.md)
+- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
+- [test internal link](python/test%20internal%20link.md)
+- [remove-non-numeric-string](python/remove-non-numeric-string.md)
+- [How to use dateparser](python/How%20to%20use%20dateparser.md)
 - [a quick way to find the index of item in list](python/find-index.md)
 
 
 [`⬆ Back to TOC`](#toc)
 ## Github
 - [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Math
-#### Algebra
-- [Linear Algebra](math/algebra/linear-algebra.md)
 
 
 [`⬆ Back to TOC`](#toc)
