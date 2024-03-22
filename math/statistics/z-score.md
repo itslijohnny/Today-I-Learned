@@ -1,3 +1,5 @@
+# z-score
+
 Z-score is measured in terms of standard deviations from the mean.  
   
 $$z=\dfrac{\text{data point}-\text{mean}}{\text{standard deviation}}$$  
