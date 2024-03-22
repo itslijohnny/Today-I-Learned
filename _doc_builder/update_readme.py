@@ -17,11 +17,14 @@ def genereate_toc(nodes, level_std, _structure,_toc):
             genereate_toc(dir_nodes, level_std + 1, _structure,_toc)
     return _toc
 
+def process_toc_anchor_link(link_name):
+    return link_name.lower().replace(" ",'-')
+    return link_name.replace(' ','%20')
 
 
 def process_anchor_link(link_name):
     # return link_name.lower().replace(" ",'-')
-    return link_name.replace(' ','%20')
+    return link_name.lower().replace(' ','%20')
 
 def genereate_note_list(nodes, level_std, _structure): 
     for node in nodes:
@@ -75,7 +78,7 @@ def main():
     toc = genereate_toc(rootNode, 2, structure,[])
     for t in toc:
         toc_level = '  '*(t['level']-2)
-        structure.append(f'{toc_level}- [{t["name"]}](#{process_anchor_link(t["name"])})') 
+        structure.append(f'{toc_level}- [{t["name"]}](#{process_toc_anchor_link(t["name"])})') 
     structure.append('\n<!-- </details> -->\n<!-- tocstop -->\n------') 
     structure = genereate_note_list(rootNode, 2, structure)
     with open(abs_path('README.md'), 'w') as f: 
