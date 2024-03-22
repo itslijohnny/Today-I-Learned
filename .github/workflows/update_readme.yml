@@ -57,11 +57,11 @@ jobs:
               run: python ./_doc_builder/update_readme.py
               shell: bash
 
-            - name: Update README
+            - name: Update markdown files
               uses: test-room-7/action-update-file@v1
               with:
-                  file-path: README.md
-                  commit-msg: Update README.md
+                  file-path: *.md
+                  commit-msg: Update markdown files
                   github-token: ${{ secrets.GITHUB_TOKEN }}
             
             - name: Update Image
