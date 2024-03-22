@@ -60,7 +60,7 @@ jobs:
             - name: Update markdown files
               uses: test-room-7/action-update-file@v1
               with:
-                  file-path: ./*.md
+                  file-path: ./*/*.md
                   commit-msg: Update markdown files
                   github-token: ${{ secrets.GITHUB_TOKEN }}
             
