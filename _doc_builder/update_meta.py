@@ -85,6 +85,7 @@ def process(nodes, symlink_map):
         meta_raw = generate_meta_info(node)
         with open(node['path'], 'r+') as fh:
             buffer = fh.read()
+            buffer = buffer.replace('.md)', '.html)')
             if '---\nlayout: default' in buffer:
                 print(f"YAML front matter already exists in {node['path']}")
                 continue
