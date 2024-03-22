@@ -56,7 +56,14 @@ jobs:
               id: update_readme
               run: python ./_doc_builder/update_readme.py
               shell: bash
-
+            
+            - name: Update README
+              uses: test-room-7/action-update-file@v1
+              with:
+                  file-path: README.md
+                  commit-msg: Update README
+                  github-token: ${{ secrets.GITHUB_TOKEN }}
+            
             - name: Update markdown files
               uses: test-room-7/action-update-file@v1
               with:
