@@ -82,7 +82,7 @@ jobs:
       
       - name: Update file name
         id: update_file_name
-        run: python ./_doc_builder/update_file_name.py
+        run: python ./_doc_builder/update_file_name.py deploy
         shell: bash
 
       - name: Update readme
