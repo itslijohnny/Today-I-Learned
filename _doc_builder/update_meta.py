@@ -86,7 +86,7 @@ def process(nodes, symlink_map):
         meta_raw = generate_meta_info(node)
         with open(node['path'], 'r+') as fh:
             buffer = fh.read()
-            rgx = re.compile(r'\[(.*?)\]\((.*?)\)')
+            rgx = re.compile(r'\[(.*?)\]\((.*?\.md)\)')
             links = rgx.findall(buffer)
             for link in links:
                 description, url = link
