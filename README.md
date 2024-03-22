@@ -28,6 +28,7 @@ If you find this repository useful, please consider starring it. Additionally, s
 - [Web](#Web)
   - [Jekyll](#Jekyll)
 - [Math](#Math)
+  - [Statistics](#Statistics)
   - [Algebra](#Algebra)
 - [Obsidian](#Obsidian)
 - [Docker](#Docker)
@@ -45,6 +46,11 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 [`⬆ Back to TOC`](#toc)
 ## Math
+#### Statistics
+- [z-score](math/statistics/z-score.md)
+
+
+[`⬆ Back to TOC`](#toc)
 #### Algebra
 - [Linear Algebra](math/algebra/linear-algebra.md)
 
