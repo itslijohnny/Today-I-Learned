@@ -1,3 +1,4 @@
+import re
 from helper.lib import PROJECT_DIR,get_dir_list,scan_dir,abs_path,get_root_node
 from tag_generator import get_tags,get_tag_from_meta
 import os
@@ -85,7 +86,12 @@ def process(nodes, symlink_map):
         meta_raw = generate_meta_info(node)
         with open(node['path'], 'r+') as fh:
             buffer = fh.read()
-            buffer = buffer.replace('.md)', '.html)')
+            rgx = re.compile(r'\[(.*?)\]\((.*?)\)')
+            links = rgx.findall(buffer)
+            for link in links:
+                description, url = link
+                new_url = url.lower().replace('.md', '.html').replace('%20', '-')
+                buffer = buffer.replace(f'[{description}]({url})', f'[{description}]({new_url})')
             if '---\nlayout: default' in buffer:
                 print(f"YAML front matter already exists in {node['path']}")
                 continue
