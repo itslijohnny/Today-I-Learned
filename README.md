@@ -31,6 +31,7 @@ If you find this repository useful, please consider starring it. Additionally, s
 - [Obsidian](#obsidian)
 - [Docker](#docker)
 - [Machine Learning](#machine-learning)
+  - [Prompt Engineering](#prompt-engineering)
   - [AI Tools](#ai-tools)
 - [Python](#python)
 - [Web](#web)
@@ -67,6 +68,11 @@ If you find this repository useful, please consider starring it. Additionally, s
 - [Date related dataset and package.md  ](ml/date-related-dataset-and-package.md)
 - [Date related dataset and package](ml/Date%20related%20dataset%20and%20package.md)
 - [Donut Model](ml/dount_model.md)
+#### Prompt Engineering
+- [Using Claude 3 Opus to Generate Interview Transcripts](ml/prompt-engineering/Using%20Claude%203%20Opus%20to%20Generate%20Interview%20Transcripts.md)
+
+
+[`⬆ Back to TOC`](#toc)
 #### AI Tools
 - [AI Clothing Visualization Techniques](ml/ai-tools/AI%20Clothing%20Visualization%20Techniques.md)
 - [StreamMultiDiffusion](ml/ai-tools/StreamMultiDiffusion.md)
