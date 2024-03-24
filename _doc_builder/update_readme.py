@@ -23,7 +23,7 @@ def process_toc_anchor_link(link_name):
 
 def process_anchor_link(link_name):
     # return link_name.lower().replace(" ",'-')
-    return link_name.lower().replace(' ','%20')
+    return link_name.replace(' ','%20')
 
 def genereate_note_list(nodes, level_std, _structure): 
     for node in nodes:
