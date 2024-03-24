@@ -33,6 +33,7 @@ If you find this repository useful, please consider starring it. Additionally, s
 - [Obsidian](#obsidian)
 - [Docker](#docker)
 - [Machine Learning](#machine-learning)
+  - [AI Tools](#ai-tools)
 - [Python](#python)
 - [Github](#github)
 
@@ -70,7 +71,11 @@ If you find this repository useful, please consider starring it. Additionally, s
 ## Machine Learning
 - [Zero Shot Learning](ml/zero-shot-model.md)
 - [Date related dataset and package.md  ](ml/date-related-dataset-and-package.md)
+- [Date related dataset and package](ml/date%20related%20dataset%20and%20package.md)
 - [Donut Model](ml/dount_model.md)
+#### AI Tools
+- [AI Clothing Visualization Techniques](ml/ai-tools/ai%20clothing%20visualization%20techniques.md)
+- [StreamMultiDiffusion](ml/ai-tools/streammultidiffusion.md)
 
 
 [`⬆ Back to TOC`](#toc)
