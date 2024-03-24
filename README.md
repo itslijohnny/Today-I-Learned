@@ -25,8 +25,6 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
-- [Web](#web)
-  - [Jekyll](#jekyll)
 - [Math](#math)
   - [Statistics](#statistics)
   - [Algebra](#algebra)
@@ -35,17 +33,13 @@ If you find this repository useful, please consider starring it. Additionally, s
 - [Machine Learning](#machine-learning)
   - [AI Tools](#ai-tools)
 - [Python](#python)
+- [Web](#web)
+  - [Jekyll](#jekyll)
 - [Github](#github)
 
 <!-- </details> -->
 <!-- tocstop -->
 ------
-## Web
-#### Jekyll
-- [Run Jekyll in Docker](web/jekyll/run-jekyll-in-docker.md)
-
-
-[`⬆ Back to TOC`](#toc)
 ## Math
 #### Statistics
 - [z-score](math/statistics/z-score.md)
@@ -58,8 +52,8 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 [`⬆ Back to TOC`](#toc)
 ## Obsidian
-- [Tour 一起看看Linan是怎么在Obsidian里记学术笔记和做日程管理的](obsidian/tour%20一起看看linan是怎么在obsidian里记学术笔记和做日程管理的.md)
-- [Obsidian - The Basics of Taking Notes - Effective Remote Work](obsidian/obsidian%20-%20the%20basics%20of%20taking%20notes%20-%20effective%20remote%20work.md)
+- [Tour 一起看看Linan是怎么在Obsidian里记学术笔记和做日程管理的](obsidian/Tour%20一起看看Linan是怎么在Obsidian里记学术笔记和做日程管理的.md)
+- [Obsidian - The Basics of Taking Notes - Effective Remote Work](obsidian/Obsidian%20-%20The%20Basics%20of%20Taking%20Notes%20-%20Effective%20Remote%20Work.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -71,11 +65,11 @@ If you find this repository useful, please consider starring it. Additionally, s
 ## Machine Learning
 - [Zero Shot Learning](ml/zero-shot-model.md)
 - [Date related dataset and package.md  ](ml/date-related-dataset-and-package.md)
-- [Date related dataset and package](ml/date%20related%20dataset%20and%20package.md)
+- [Date related dataset and package](ml/Date%20related%20dataset%20and%20package.md)
 - [Donut Model](ml/dount_model.md)
 #### AI Tools
-- [AI Clothing Visualization Techniques](ml/ai-tools/ai%20clothing%20visualization%20techniques.md)
-- [StreamMultiDiffusion](ml/ai-tools/streammultidiffusion.md)
+- [AI Clothing Visualization Techniques](ml/ai-tools/AI%20Clothing%20Visualization%20Techniques.md)
+- [StreamMultiDiffusion](ml/ai-tools/StreamMultiDiffusion.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -84,8 +78,14 @@ If you find this repository useful, please consider starring it. Additionally, s
 - [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
 - [test internal link](python/test%20internal%20link.md)
 - [remove-non-numeric-string](python/remove-non-numeric-string.md)
-- [How to use dateparser](python/how%20to%20use%20dateparser.md)
+- [How to use dateparser](python/How%20to%20use%20dateparser.md)
 - [a quick way to find the index of item in list](python/find-index.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Web
+#### Jekyll
+- [Run Jekyll in Docker](web/Jekyll/run-jekyll-in-docker.md)
 
 
 [`⬆ Back to TOC`](#toc)
