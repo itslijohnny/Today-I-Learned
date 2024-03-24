@@ -1,5 +1,3 @@
-# Date related dataset and package
-
   
 https://huggingface.co/impira/layoutlm-invoices  
 ## LayoutLM for Invoices  
