@@ -43,7 +43,7 @@ def genereate_note_list(nodes, level_std, _structure):
                     continue
                 file_nodes.append(child_node)
         
-        _level = '##'*(level-1)
+        _level = '#'*(level)
         _structure.append(f'{_level} {node["title"]}')
         if intro:
             _structure.append(intro.strip() + '\n')
