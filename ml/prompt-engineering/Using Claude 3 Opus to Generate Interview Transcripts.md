@@ -1,3 +1,5 @@
+# Using Claude 3 Opus to Generate Interview Transcripts
+
   
 1. Specify the characters speaking (Claude is generally accurate at automatically distinguishing speakers)  
 2. Request the content be divided into chapters by topic (important for readability and summarization)  
