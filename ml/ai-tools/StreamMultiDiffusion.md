@@ -1,5 +1,3 @@
-# StreamMultiDiffusion
-
 StreamMultiDiffusion is a tool that uses neural networks to generate images based on text prompts. It allows users to create interactive graphics by specifying different regions of the image with different text prompts. The tool is still in the research phase, but it shows a lot of promise and could potentially be used for a variety of applications such as graphic design, animation, and more.  
   
   
