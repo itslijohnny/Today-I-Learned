@@ -74,6 +74,7 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 [`⬆ Back to TOC`](#toc)
 ### AI Tools
+- [Create Custom Models From Huggingface with Ollama](ml/ai-tools/Create%20Custom%20Models%20From%20Huggingface%20with%20Ollama.md)
 - [AI Clothing Visualization Techniques](ml/ai-tools/AI%20Clothing%20Visualization%20Techniques.md)
 - [StreamMultiDiffusion](ml/ai-tools/StreamMultiDiffusion.md)
 
