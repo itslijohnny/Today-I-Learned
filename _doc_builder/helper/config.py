@@ -13,6 +13,7 @@ CATEGORY_NAME_MAP = {
     'raspberry-pi': 'Raspberry Pi',
     'ai-tools': 'AI Tools',
     'prompt-engineering': 'Prompt Engineering',
+    'ab-testing': 'AB Testing',
     
 }
 
