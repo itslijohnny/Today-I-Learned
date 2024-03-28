@@ -25,14 +25,14 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
+- [Data Science](#data-science)
+  - [Prompt Engineering](#prompt-engineering)
+  - [AI Tools](#ai-tools)
 - [Math](#math)
   - [Statistics](#statistics)
   - [Algebra](#algebra)
 - [Obsidian](#obsidian)
 - [Docker](#docker)
-- [Machine Learning](#machine-learning)
-  - [Prompt Engineering](#prompt-engineering)
-  - [AI Tools](#ai-tools)
 - [Python](#python)
 - [Web](#web)
   - [Jekyll](#jekyll)
@@ -41,6 +41,23 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- </details> -->
 <!-- tocstop -->
 ------
+## Data Science
+- [Zero Shot Learning](ds/zero-shot-model.md)
+- [Date related dataset and package.md  ](ds/date-related-dataset-and-package.md)
+- [Date related dataset and package](ds/Date%20related%20dataset%20and%20package.md)
+- [Donut Model](ds/dount_model.md)
+### Prompt Engineering
+- [Using Claude 3 Opus to Generate Interview Transcripts](ds/prompt-engineering/Using%20Claude%203%20Opus%20to%20Generate%20Interview%20Transcripts.md)
+
+
+[`⬆ Back to TOC`](#toc)
+### AI Tools
+- [Create Custom Models From Huggingface with Ollama](ds/ai-tools/Create%20Custom%20Models%20From%20Huggingface%20with%20Ollama.md)
+- [AI Clothing Visualization Techniques](ds/ai-tools/AI%20Clothing%20Visualization%20Techniques.md)
+- [StreamMultiDiffusion](ds/ai-tools/StreamMultiDiffusion.md)
+
+
+[`⬆ Back to TOC`](#toc)
 ## Math
 ### Statistics
 - [z-score](math/statistics/z-score.md)
@@ -60,23 +77,6 @@ If you find this repository useful, please consider starring it. Additionally, s
 [`⬆ Back to TOC`](#toc)
 ## Docker
 - [Docker compose](docker/docker-compose.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Machine Learning
-- [Zero Shot Learning](ml/zero-shot-model.md)
-- [Date related dataset and package.md  ](ml/date-related-dataset-and-package.md)
-- [Date related dataset and package](ml/Date%20related%20dataset%20and%20package.md)
-- [Donut Model](ml/dount_model.md)
-### Prompt Engineering
-- [Using Claude 3 Opus to Generate Interview Transcripts](ml/prompt-engineering/Using%20Claude%203%20Opus%20to%20Generate%20Interview%20Transcripts.md)
-
-
-[`⬆ Back to TOC`](#toc)
-### AI Tools
-- [Create Custom Models From Huggingface with Ollama](ml/ai-tools/Create%20Custom%20Models%20From%20Huggingface%20with%20Ollama.md)
-- [AI Clothing Visualization Techniques](ml/ai-tools/AI%20Clothing%20Visualization%20Techniques.md)
-- [StreamMultiDiffusion](ml/ai-tools/StreamMultiDiffusion.md)
 
 
 [`⬆ Back to TOC`](#toc)
