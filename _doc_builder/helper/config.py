@@ -9,6 +9,7 @@ IGNORE_DIRS = [
 
 CATEGORY_NAME_MAP = {
     'ml': 'Machine Learning',
+    'ds': 'Data Science',
     'raspberry-pi': 'Raspberry Pi',
     'ai-tools': 'AI Tools',
     'prompt-engineering': 'Prompt Engineering',
