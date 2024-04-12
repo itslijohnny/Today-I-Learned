@@ -25,47 +25,29 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- toc -->
 <!-- <details close> -->
 <!-- <summary>Collapse/Expand</summary> -->
-- [Data Science](#data-science)
-  - [Prompt Engineering](#prompt-engineering)
-  - [AI Tools](#ai-tools)
-- [Math](#math)
-  - [Statistics](#statistics)
-  - [Algebra](#algebra)
-- [Obsidian](#obsidian)
 - [Docker](#docker)
-- [Python](#python)
+- [Github](#github)
+- [Obsidian](#obsidian)
 - [Web](#web)
   - [Jekyll](#jekyll)
-- [Github](#github)
+- [Data Science](#data-science)
+  - [AI Tools](#ai-tools)
+  - [Prompt Engineering](#prompt-engineering)
+- [Math](#math)
+  - [Algebra](#algebra)
+  - [Statistics](#statistics)
+- [Python](#python)
 
 <!-- </details> -->
 <!-- tocstop -->
 ------
-## Data Science
-- [Zero Shot Learning](ds/zero-shot-model.md)
-- [Date related dataset and package.md  ](ds/date-related-dataset-and-package.md)
-- [Date related dataset and package](ds/Date%20related%20dataset%20and%20package.md)
-- [Donut Model](ds/dount_model.md)
-### Prompt Engineering
-- [Using Claude 3 Opus to Generate Interview Transcripts](ds/prompt-engineering/Using%20Claude%203%20Opus%20to%20Generate%20Interview%20Transcripts.md)
+## Docker
+- [Docker compose](docker/docker-compose.md)
 
 
 [`⬆ Back to TOC`](#toc)
-### AI Tools
-- [Create Custom Models From Huggingface with Ollama](ds/ai-tools/Create%20Custom%20Models%20From%20Huggingface%20with%20Ollama.md)
-- [AI Clothing Visualization Techniques](ds/ai-tools/AI%20Clothing%20Visualization%20Techniques.md)
-- [StreamMultiDiffusion](ds/ai-tools/StreamMultiDiffusion.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Math
-### Statistics
-- [z-score](math/statistics/z-score.md)
-
-
-[`⬆ Back to TOC`](#toc)
-### Algebra
-- [Linear Algebra](math/algebra/linear-algebra.md)
+## Github
+- [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
 
 
 [`⬆ Back to TOC`](#toc)
@@ -75,29 +57,47 @@ If you find this repository useful, please consider starring it. Additionally, s
 
 
 [`⬆ Back to TOC`](#toc)
-## Docker
-- [Docker compose](docker/docker-compose.md)
-
-
-[`⬆ Back to TOC`](#toc)
-## Python
-- [Generate requirement.txt file](python/generate-requirement.md)
-- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
-- [test internal link](python/test%20internal%20link.md)
-- [remove-non-numeric-string](python/remove-non-numeric-string.md)
-- [How to use dateparser](python/How%20to%20use%20dateparser.md)
-- [a quick way to find the index of item in list](python/find-index.md)
-
-
-[`⬆ Back to TOC`](#toc)
 ## Web
 ### Jekyll
 - [Run Jekyll in Docker](web/Jekyll/run-jekyll-in-docker.md)
 
 
 [`⬆ Back to TOC`](#toc)
-## Github
-- [GitHub Checkout Action Preserve File Modification Time](github/restore_file_datetime.md)
+## Data Science
+- [Date related dataset and package.md  ](ds/date-related-dataset-and-package.md)
+- [Date related dataset and package](ds/Date%20related%20dataset%20and%20package.md)
+- [Donut Model](ds/dount_model.md)
+- [Zero Shot Learning](ds/zero-shot-model.md)
+### AI Tools
+- [Create Custom Models From Huggingface with Ollama](ds/ai-tools/Create%20Custom%20Models%20From%20Huggingface%20with%20Ollama.md)
+- [StreamMultiDiffusion](ds/ai-tools/StreamMultiDiffusion.md)
+- [AI Clothing Visualization Techniques](ds/ai-tools/AI%20Clothing%20Visualization%20Techniques.md)
+
+
+[`⬆ Back to TOC`](#toc)
+### Prompt Engineering
+- [Using Claude 3 Opus to Generate Interview Transcripts](ds/prompt-engineering/Using%20Claude%203%20Opus%20to%20Generate%20Interview%20Transcripts.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Math
+### Algebra
+- [Linear Algebra](math/algebra/linear-algebra.md)
+
+
+[`⬆ Back to TOC`](#toc)
+### Statistics
+- [z-score](math/statistics/z-score.md)
+
+
+[`⬆ Back to TOC`](#toc)
+## Python
+- [remove-non-numeric-string](python/remove-non-numeric-string.md)
+- [test internal link](python/test%20internal%20link.md)
+- [How to use dateparser](python/How%20to%20use%20dateparser.md)
+- [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
+- [a quick way to find the index of item in list](python/find-index.md)
+- [Generate requirement.txt file](python/generate-requirement.md)
 
 
 [`⬆ Back to TOC`](#toc)
