@@ -1,14 +1,12 @@
-# AI Clothing Visualization Techniques
-
 Current Approaches:  
   
 - [OOTDiffusion](https://github.com/levihsu/OOTDiffusion)  
 - Using two reference images (clothing, pose)  
-	- example: https://twitter.com/thibaudz/status/1738549059617501597  
-	- ComfyUI Json: https://drive.google.com/file/d/1ysc1C5E4qdNvtKKEDAbHyUYLc7SnbPUX/view?pli=1  
+	- [example](https://twitter.com/thibaudz/status/1738549059617501597)  
+	- [ComfyUI Json](https://drive.google.com/file/d/1ysc1C5E4qdNvtKKEDAbHyUYLc7SnbPUX/view?pli=1)  
 - OutfitAnyone online tool  
-	- https://outfitanyone.app/  
-	- https://github.com/HumanAIGC/OutfitAnyone  
+	- [https://outfitanyone.app/](https://outfitanyone.app/)  
+	- [https://github.com/HumanAIGC/OutfitAnyone](https://github.com/HumanAIGC/OutfitAnyone)  
 - Inpainting methods  
   
 Limitations:  
