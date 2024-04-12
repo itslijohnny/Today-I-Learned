@@ -42,7 +42,9 @@ If you find this repository useful, please consider starring it. Additionally, s
 <!-- tocstop -->
 ------
 ## Docker
+- [Docker Error Response From Daemon AppArmor](docker/Docker%20Error%20Response%20From%20Daemon%20AppArmor.md)
 - [Docker compose](docker/docker-compose.md)
+- [Docker Got permission denied while trying to connect to the Docker daemon socket](docker/Docker%20Got%20permission%20denied%20while%20trying%20to%20connect%20to%20the%20Docker%20daemon%20socket.md)
 
 
 [`⬆ Back to TOC`](#toc)
