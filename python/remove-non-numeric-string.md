@@ -1,9 +1,7 @@
-# remove-non-numeric-string
-
   
 ## Remove non numeric string  
   
-#python  
+  
   
 ```python  
   
