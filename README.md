@@ -96,9 +96,11 @@ If you find this repository useful, please consider starring it. Additionally, s
 ## Python
 - [remove-non-numeric-string](python/remove-non-numeric-string.md)
 - [test internal link](python/test%20internal%20link.md)
+- [Faster way to load parquet file in s3](python/Faster%20way%20to%20load%20parquet%20file%20in%20s3.md)
 - [How to use dateparser](python/How%20to%20use%20dateparser.md)
 - [How to get file modify date/time](python/how-to-get-file-modify-datetime.md)
 - [a quick way to find the index of item in list](python/find-index.md)
+- [Fix Unknow encoder pcm_s4le issue and covert wav format](python/Fix%20Unknow%20encoder%20pcm_s4le%20issue%20and%20covert%20wav%20format.md)
 - [Generate requirement.txt file](python/generate-requirement.md)
 
 
