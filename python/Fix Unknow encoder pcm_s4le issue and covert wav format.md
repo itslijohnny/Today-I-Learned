@@ -1,3 +1,5 @@
+# Fix Unknow encoder pcm_s4le issue and covert wav format
+
 When cutting wav file into small piece using the following code.  
 ```python  
 from pydub import AudioSegment  
