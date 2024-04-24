@@ -1,5 +1,3 @@
-# AI Clothing Visualization Techniques
-
 Current Approaches:  
   
 - [OOTDiffusion](https://github.com/levihsu/OOTDiffusion)  
