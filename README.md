@@ -100,6 +100,7 @@ If you find this repository useful, please consider starring it. Additionally, s
 [`⬆ Back to TOC`](#toc)
 ### AI Tools
 - [AI Clothing Visualization Techniques](ds/ai-tools/AI%20Clothing%20Visualization%20Techniques.md)
+- [Microsoft Releases Phi-3-Mini Model](ds/ai-tools/Microsoft%20Releases%20Phi-3-Mini%20Model.md)
 - [StreamMultiDiffusion](ds/ai-tools/StreamMultiDiffusion.md)
 - [Create Custom Models From Huggingface with Ollama](ds/ai-tools/Create%20Custom%20Models%20From%20Huggingface%20with%20Ollama.md)
 - [How to config ollama using OLLAMA_ORIGINS windows](ds/ai-tools/How%20to%20config%20ollama%20using%20OLLAMA_ORIGINS%20windows.md)
