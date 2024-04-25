@@ -1,3 +1,5 @@
+# Microsoft Releases Phi-3-Mini Model
+
 - The Phi-3-Mini model has been open-sourced!  
 - It's a 4K and 128K dual-model, with performance comparable to GPT-3.5 and Mixtral 8x7B.  
 - The model is available for mobile devices and can run on phones.  
