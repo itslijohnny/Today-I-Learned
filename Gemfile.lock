@@ -11,7 +11,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    faraday (2.9.0)
+    faraday (2.9.2)
       faraday-net_http (>= 2.0, < 3.2)
     faraday-net_http (3.1.0)
       net-http
@@ -131,7 +131,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  faraday (~> 2.7, >= 2.7.11)
+  faraday (~> 2.9)
   faraday-retry
   jekyll (~> 4.3.3)
   jekyll-commonmark-ghpages

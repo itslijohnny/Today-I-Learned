@@ -24,7 +24,7 @@ end
 
 gem 'faraday-retry'
 
-gem 'faraday', '~> 2.7', '>= 2.7.11'
+gem 'faraday', '~> 2.9'
 
 group :jekyll_plugins do
     gem 'jekyll-commonmark-ghpages'
