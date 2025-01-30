@@ -2,11 +2,11 @@ title: Today I Learned
 tagline: Today I Learned - A list of all things I learn on daily basis.
 description: Today I Learned is a personal project where I document and share all the interesting things I learn every day. The goal of this project is to create a comprehensive, evolving knowledge base that others can use as a learning resource. The site is built using Jekyll and hosted on GitHub Pages. It uses the "just-the-docs" theme for a clean, easy-to-navigate interface. The content is organized in a way that makes it easy for visitors to find and explore topics of interest.
 baseurl: "/Today-I-Learned" # the subpath of your site, e.g. /blog
-url: "https://lijohnny.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://johnny.cc" # the base hostname & protocol for your site, e.g. http://example.com
 repository: itslijohnny/Today-I-Learned # for github-metadata
 author:
   name: Johnny Li
-  url: https://lijohnny.com/
+  url: https://johnny.cc/
 
 permalink: none
 
@@ -94,7 +94,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 # External navigation links
 nav_external_links:
   - title: Back to my blog
-    url: https://lijohnny.com
+    url: https://johnny.cc
 
 # Footer content
 # appears at the bottom of every page's main content
